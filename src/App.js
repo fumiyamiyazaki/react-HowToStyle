@@ -1,10 +1,18 @@
+import { CssModules } from "./componets/CssModules";
+import { Emotion } from "./componets/Emotion";
+import { InlineStyle } from "./componets/InlineStyle";
+import { StyledComponents } from "./componets/StyledComponets";
+import { StyledJsx } from "./componets/StyledJsx";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <InlineStyle />
+      <CssModules />
+      <StyledJsx />
+      <StyledComponents />
+      <Emotion />
     </div>
   );
 }
